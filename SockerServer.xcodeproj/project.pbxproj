@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E767207206DD4430063AC26 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E767206206DD4430063AC26 /* AppDelegate.m */; };
+		2E76720A206DD4430063AC26 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E767209206DD4430063AC26 /* ViewController.m */; };
+		2E76720D206DD4430063AC26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E76720B206DD4430063AC26 /* Main.storyboard */; };
+		2E76720F206DD4430063AC26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E76720E206DD4430063AC26 /* Assets.xcassets */; };
+		2E767212206DD4430063AC26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E767210206DD4430063AC26 /* LaunchScreen.storyboard */; };
+		2E767215206DD4430063AC26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E767214206DD4430063AC26 /* main.m */; };
+		2E76721F206DD4430063AC26 /* SockerServerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E76721E206DD4430063AC26 /* SockerServerTests.m */; };
+		2E76722A206DD4430063AC26 /* SockerServerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E767229206DD4430063AC26 /* SockerServerUITests.m */; };
+		2E767277206DE6EA0063AC26 /* NSObject+GetIP.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E767276206DE6EA0063AC26 /* NSObject+GetIP.m */; };
+		8FCBF3399BA4F7E2E97B1269 /* libPods-SockerServer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 293EC7EC822301E08CFF1D99 /* libPods-SockerServer.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E76721B206DD4430063AC26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E7671FA206DD4430063AC26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E767201206DD4430063AC26;
+			remoteInfo = SockerServer;
+		};
+		2E767226206DD4430063AC26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E7671FA206DD4430063AC26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E767201206DD4430063AC26;
+			remoteInfo = SockerServer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		293EC7EC822301E08CFF1D99 /* libPods-SockerServer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SockerServer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E767202206DD4430063AC26 /* SockerServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SockerServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E767205206DD4430063AC26 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2E767206206DD4430063AC26 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2E767208206DD4430063AC26 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2E767209206DD4430063AC26 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2E76720C206DD4430063AC26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2E76720E206DD4430063AC26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E767211206DD4430063AC26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2E767213206DD4430063AC26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E767214206DD4430063AC26 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2E76721A206DD4430063AC26 /* SockerServerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SockerServerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E76721E206DD4430063AC26 /* SockerServerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SockerServerTests.m; sourceTree = "<group>"; };
+		2E767220206DD4430063AC26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E767225206DD4430063AC26 /* SockerServerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SockerServerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E767229206DD4430063AC26 /* SockerServerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SockerServerUITests.m; sourceTree = "<group>"; };
+		2E76722B206DD4430063AC26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E767275206DE6EA0063AC26 /* NSObject+GetIP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+GetIP.h"; sourceTree = "<group>"; };
+		2E767276206DE6EA0063AC26 /* NSObject+GetIP.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+GetIP.m"; sourceTree = "<group>"; };
+		76A2C6BCAA822D01F5E71F11 /* Pods-SockerServer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SockerServer.release.xcconfig"; path = "Pods/Target Support Files/Pods-SockerServer/Pods-SockerServer.release.xcconfig"; sourceTree = "<group>"; };
+		D08C515FB7BC4880049BD1DD /* Pods-SockerServer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SockerServer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SockerServer/Pods-SockerServer.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E7671FF206DD4430063AC26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FCBF3399BA4F7E2E97B1269 /* libPods-SockerServer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E767217206DD4430063AC26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E767222206DD4430063AC26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E7671F9206DD4430063AC26 = {
+			isa = PBXGroup;
+			children = (
+				2E767204206DD4430063AC26 /* SockerServer */,
+				2E76721D206DD4430063AC26 /* SockerServerTests */,
+				2E767228206DD4430063AC26 /* SockerServerUITests */,
+				2E767203206DD4430063AC26 /* Products */,
+				8CCDDA68C1B7D655E12E4AA1 /* Pods */,
+				565D66B2B9580EEE66CF0630 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2E767203206DD4430063AC26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E767202206DD4430063AC26 /* SockerServer.app */,
+				2E76721A206DD4430063AC26 /* SockerServerTests.xctest */,
+				2E767225206DD4430063AC26 /* SockerServerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E767204206DD4430063AC26 /* SockerServer */ = {
+			isa = PBXGroup;
+			children = (
+				2E767205206DD4430063AC26 /* AppDelegate.h */,
+				2E767206206DD4430063AC26 /* AppDelegate.m */,
+				2E767208206DD4430063AC26 /* ViewController.h */,
+				2E767209206DD4430063AC26 /* ViewController.m */,
+				2E76720B206DD4430063AC26 /* Main.storyboard */,
+				2E76720E206DD4430063AC26 /* Assets.xcassets */,
+				2E767210206DD4430063AC26 /* LaunchScreen.storyboard */,
+				2E767213206DD4430063AC26 /* Info.plist */,
+				2E767214206DD4430063AC26 /* main.m */,
+				2E767275206DE6EA0063AC26 /* NSObject+GetIP.h */,
+				2E767276206DE6EA0063AC26 /* NSObject+GetIP.m */,
+			);
+			path = SockerServer;
+			sourceTree = "<group>";
+		};
+		2E76721D206DD4430063AC26 /* SockerServerTests */ = {
+			isa = PBXGroup;
+			children = (
+				2E76721E206DD4430063AC26 /* SockerServerTests.m */,
+				2E767220206DD4430063AC26 /* Info.plist */,
+			);
+			path = SockerServerTests;
+			sourceTree = "<group>";
+		};
+		2E767228206DD4430063AC26 /* SockerServerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2E767229206DD4430063AC26 /* SockerServerUITests.m */,
+				2E76722B206DD4430063AC26 /* Info.plist */,
+			);
+			path = SockerServerUITests;
+			sourceTree = "<group>";
+		};
+		565D66B2B9580EEE66CF0630 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				293EC7EC822301E08CFF1D99 /* libPods-SockerServer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8CCDDA68C1B7D655E12E4AA1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D08C515FB7BC4880049BD1DD /* Pods-SockerServer.debug.xcconfig */,
+				76A2C6BCAA822D01F5E71F11 /* Pods-SockerServer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E767201206DD4430063AC26 /* SockerServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E76722E206DD4430063AC26 /* Build configuration list for PBXNativeTarget "SockerServer" */;
+			buildPhases = (
+				0D98529516252B3079FF9FD9 /* [CP] Check Pods Manifest.lock */,
+				2E7671FE206DD4430063AC26 /* Sources */,
+				2E7671FF206DD4430063AC26 /* Frameworks */,
+				2E767200206DD4430063AC26 /* Resources */,
+				58B4B053F07D1EFE5290064F /* [CP] Embed Pods Frameworks */,
+				C5FCFCBFFB472FCE2AAF485B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SockerServer;
+			productName = SockerServer;
+			productReference = 2E767202206DD4430063AC26 /* SockerServer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2E767219206DD4430063AC26 /* SockerServerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E767231206DD4430063AC26 /* Build configuration list for PBXNativeTarget "SockerServerTests" */;
+			buildPhases = (
+				2E767216206DD4430063AC26 /* Sources */,
+				2E767217206DD4430063AC26 /* Frameworks */,
+				2E767218206DD4430063AC26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E76721C206DD4430063AC26 /* PBXTargetDependency */,
+			);
+			name = SockerServerTests;
+			productName = SockerServerTests;
+			productReference = 2E76721A206DD4430063AC26 /* SockerServerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2E767224206DD4430063AC26 /* SockerServerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E767234206DD4430063AC26 /* Build configuration list for PBXNativeTarget "SockerServerUITests" */;
+			buildPhases = (
+				2E767221206DD4430063AC26 /* Sources */,
+				2E767222206DD4430063AC26 /* Frameworks */,
+				2E767223206DD4430063AC26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E767227206DD4430063AC26 /* PBXTargetDependency */,
+			);
+			name = SockerServerUITests;
+			productName = SockerServerUITests;
+			productReference = 2E767225206DD4430063AC26 /* SockerServerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E7671FA206DD4430063AC26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "张晓烨";
+				TargetAttributes = {
+					2E767201206DD4430063AC26 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					2E767219206DD4430063AC26 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2E767201206DD4430063AC26;
+					};
+					2E767224206DD4430063AC26 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2E767201206DD4430063AC26;
+					};
+				};
+			};
+			buildConfigurationList = 2E7671FD206DD4430063AC26 /* Build configuration list for PBXProject "SockerServer" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E7671F9206DD4430063AC26;
+			productRefGroup = 2E767203206DD4430063AC26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E767201206DD4430063AC26 /* SockerServer */,
+				2E767219206DD4430063AC26 /* SockerServerTests */,
+				2E767224206DD4430063AC26 /* SockerServerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E767200206DD4430063AC26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E767212206DD4430063AC26 /* LaunchScreen.storyboard in Resources */,
+				2E76720F206DD4430063AC26 /* Assets.xcassets in Resources */,
+				2E76720D206DD4430063AC26 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E767218206DD4430063AC26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E767223206DD4430063AC26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D98529516252B3079FF9FD9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SockerServer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58B4B053F07D1EFE5290064F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SockerServer/Pods-SockerServer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5FCFCBFFB472FCE2AAF485B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SockerServer/Pods-SockerServer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E7671FE206DD4430063AC26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E76720A206DD4430063AC26 /* ViewController.m in Sources */,
+				2E767215206DD4430063AC26 /* main.m in Sources */,
+				2E767207206DD4430063AC26 /* AppDelegate.m in Sources */,
+				2E767277206DE6EA0063AC26 /* NSObject+GetIP.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E767216206DD4430063AC26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E76721F206DD4430063AC26 /* SockerServerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E767221206DD4430063AC26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E76722A206DD4430063AC26 /* SockerServerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E76721C206DD4430063AC26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E767201206DD4430063AC26 /* SockerServer */;
+			targetProxy = 2E76721B206DD4430063AC26 /* PBXContainerItemProxy */;
+		};
+		2E767227206DD4430063AC26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E767201206DD4430063AC26 /* SockerServer */;
+			targetProxy = 2E767226206DD4430063AC26 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2E76720B206DD4430063AC26 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E76720C206DD4430063AC26 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2E767210206DD4430063AC26 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E767211206DD4430063AC26 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E76722C206DD4430063AC26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2E76722D206DD4430063AC26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E76722F206DD4430063AC26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D08C515FB7BC4880049BD1DD /* Pods-SockerServer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C2QBXRMTCP;
+				INFOPLIST_FILE = SockerServer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.zxy.SockerServer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2E767230206DD4430063AC26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76A2C6BCAA822D01F5E71F11 /* Pods-SockerServer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C2QBXRMTCP;
+				INFOPLIST_FILE = SockerServer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.zxy.SockerServer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2E767232206DD4430063AC26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C2QBXRMTCP;
+				INFOPLIST_FILE = SockerServerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.zxy.SockerServerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SockerServer.app/SockerServer";
+			};
+			name = Debug;
+		};
+		2E767233206DD4430063AC26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C2QBXRMTCP;
+				INFOPLIST_FILE = SockerServerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.zxy.SockerServerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SockerServer.app/SockerServer";
+			};
+			name = Release;
+		};
+		2E767235206DD4430063AC26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C2QBXRMTCP;
+				INFOPLIST_FILE = SockerServerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.zxy.SockerServerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SockerServer;
+			};
+			name = Debug;
+		};
+		2E767236206DD4430063AC26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C2QBXRMTCP;
+				INFOPLIST_FILE = SockerServerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.zxy.SockerServerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SockerServer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E7671FD206DD4430063AC26 /* Build configuration list for PBXProject "SockerServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E76722C206DD4430063AC26 /* Debug */,
+				2E76722D206DD4430063AC26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E76722E206DD4430063AC26 /* Build configuration list for PBXNativeTarget "SockerServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E76722F206DD4430063AC26 /* Debug */,
+				2E767230206DD4430063AC26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E767231206DD4430063AC26 /* Build configuration list for PBXNativeTarget "SockerServerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E767232206DD4430063AC26 /* Debug */,
+				2E767233206DD4430063AC26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E767234206DD4430063AC26 /* Build configuration list for PBXNativeTarget "SockerServerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E767235206DD4430063AC26 /* Debug */,
+				2E767236206DD4430063AC26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E7671FA206DD4430063AC26 /* Project object */;
+}
